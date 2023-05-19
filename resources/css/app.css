@@ -1,0 +1,25 @@
+    .navbar-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        height: 100%;
+    }
+    
+    .nav-link {
+        font-size: 16px;
+        color: #555;
+        margin-right: 20px;
+        text-transform: uppercase;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .nav-link:hover {
+        color: #007bff;
+    }
+    
+    .nav-link.active {
+        color: #007bff;
+        font-weight: 600;
+    }
+    
