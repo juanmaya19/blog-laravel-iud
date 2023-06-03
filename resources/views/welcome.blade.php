@@ -34,24 +34,32 @@
             y consejos de expertos que te ayudarán a elevar tus habilidades culinarias a un nivel superior.</p>
     </div>
 
-    <div class="row">
-        <div class="col-md-6">
-            <h2>Sección 1</h2>
-            <p>Contenido de la sección 1.</p>
-        </div>
-        <div class="col-md-6">
-            <h2>Sección 2</h2>
-            <p>Contenido de la sección 2.</p>
-        </div>
-    </div>
+    <section class="seccion1" id="seccion1">
+        <h2>Utensilios de Cocina Imprescindibles</h2>
+        <p>En esta sección hablaremos sobre los utensilios de cocina que son imprescindibles para cualquier cocinero o cocinera.
+        Veremos desde las ollas y sartenes básicas, hasta herramientas más especializadas que pueden hacer nuestra vida en 
+        la cocina mucho más fácil.</p>
+        <a href="https://www.elmueble.com/orden-limpieza-ahorro/25-utensilios-imprescindibles-tu-cocina_43776" class="button">Ir</a>
+    </section>
+      
+    <section class="seccion2" id="seccion2">
+        <h2>Recetas Fáciles y Saludables</h2>
+        <p>En esta sección nos enfocaremos en recetas fáciles y saludables, perfectas para aquellos que quieren comer bien pero 
+        no tienen mucho tiempo ni experiencia en la cocina. Aprenderás a preparar platos deliciosos con ingredientes simples y 
+        accesibles.</p>
+        <a href="https://www.cocinacaserayfacil.net/recetas-sanas-faciles" class="button">Ir</a>
+    </section>
+      
+    <section class="otraseccion" id="otraseccion">
+        <h2>Tips de Cocina para Principiantes</h2>
+        <p>En esta sección te daremos algunos consejos prácticos para que tus aventuras en la cocina sean más exitosas. Aprenderás
+        desde cómo elegir los ingredientes frescos hasta cómo armar una despensa bien equipada. Además, te daremos algunos
+        trucos para preparar tus platos favoritos de manera más eficiente.</p>
+        <a href="https://www.cuerpomente.com/blogs/gastronomia-consciente/trucos-cocina-principiantes_1389" class="button">Ir</a>
+    </section>
 
-    <div class="row">
-        <div class="col-md-12">
-            <h2>Otra sección</h2>
-            <p>Contenido de otra sección.</p>
-        </div>
-    </div>
     <div class="container">
+        <h1 class="text-center">Recetas Populares</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
             <div class="col">
             <div class="card h-100">
