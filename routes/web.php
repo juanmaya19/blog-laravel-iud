@@ -1,8 +1,8 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Dashboard\CategoryController;
 use App\Http\Controllers\Dashboard\PostController;
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,15 +31,15 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::group([
-        'prefix' => 'dashboard',
-       'middleware' => 'auth','verified'
-    ],
-    function () {
-        Route::resources([
-            'posts' =>PostController::class,
-            'categories' => CategoryController::class,
-        ]);
-    }
+    'prefix' => 'dashboard',
+   'middleware' => 'auth','verified'
+],
+function () {
+    Route::resources([
+        'posts' =>PostController::class,
+        'categories' => CategoryController::class,
+    ]);
+}
 );
 
 require __DIR__.'/auth.php';
