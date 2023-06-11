@@ -15,8 +15,8 @@
                     <td>{{ $c->title }}</td>
                     <td>{{ $c->slug }}</td>
                     <td width="10px">
-                        <a class="mt-2 btn btn-primary btn-action edit" href="{{ route('categories.edit', $c) }}">Editar</a>
-                        <a class="mt-2 btn btn-primary btn-action" href="{{ route('categories.show', $c) }}">Ver</a>
+                        <a class="btn btn-primary btn-action edit" href="{{ route('categories.edit', $c) }}">Editar</a>
+                        <a class="btn btn-primary btn-action" href="{{ route('categories.show', $c) }}">Ver</a>
                         <form action="{{ route('categories.destroy', $c) }}" method="POST" class="form-delete">
                             @csrf
                             @method('DELETE')
